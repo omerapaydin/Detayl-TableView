@@ -9,6 +9,10 @@ import UIKit
 
 class YemekTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var yemekname: UILabel!
+    @IBOutlet weak var ücretText: UILabel!
+    @IBOutlet weak var imageYemek: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,4 +24,6 @@ class YemekTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    @IBAction func siparişVer(_ sender: Any) {
+    }
 }
